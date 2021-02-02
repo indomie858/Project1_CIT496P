@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Office
-email: theoffice@example.com
+title: Michael Scott Paper Company
+email: michael.scott@michaelscottpapercompany.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Scranton, PA. Scranton is a city in northeast Pennsylvania. It's known for Steamtown
   National Historic Site, with century-old locomotives set on a former rail yard. In a restored
