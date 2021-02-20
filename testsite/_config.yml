@@ -18,16 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Michael Scott Paper Company
-email: michael.scott@michaelscottpapercompany.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Scranton, PA. Scranton is a city in northeast Pennsylvania. It's known for Steamtown
-  National Historic Site, with century-old locomotives set on a former rail yard. In a restored
-  19th-century mill, the Electric City Trolley Museum has interactive exhibits and vintage 
-  and vintage trolleys. Nearby are the 4 Scranton Iron Furnaces, relics of an 1800s iron plant. 
-  McDade Part is home to Lackawanna Coal Mine, where a mine car descends to tunnels.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title:
+email: gaven@michaelscottpapercompany.com
+description: >
+  The unofficial website for Michael Scott Paper Company Inc.
+baseurl: "/breakthepage" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  indomie858
 
 # Build settings
