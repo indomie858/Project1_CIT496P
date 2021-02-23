@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Company Home
+
 ---
 # Welcome to Michael Scott Paper Company
 ## Limitless paper, in a paperless world

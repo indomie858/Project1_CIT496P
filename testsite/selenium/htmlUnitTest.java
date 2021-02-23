@@ -20,12 +20,12 @@ public class htmlUnitTest {
 		Assert.assertNotEquals(pageTitle, "");
 		Assert.assertFalse(pageTitle.matches("^\\s*$")); // uses regexp
 		System.out.println("Page title is: " + pageTitle);
-
+		
 		// This code will check the HTML source for Jekyll 404 errors
 		String pageSource = driver.getPageSource();
 		Assert.assertFalse(pageSource.contains("404.html")); 
 		Assert.assertFalse(pageSource.contains("requested page could not be found")); 
-
+		
 		// Create a test that is specific to YOUR Jekyll site here -->
 		String expectedEmail = "michael.scott@michaelscottpapercompany.com";
 		String actualEmail = driver.findElement(By.className("u-email")).getText();
