@@ -22,7 +22,7 @@ title: Michael Scott Paper Company
 email: gaven@michaelscottpapercompany.com
 description: >
   The unofficial website for Michael Scott Paper Company Inc.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/darwin" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  indomie858
 
